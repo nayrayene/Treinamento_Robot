@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.11.8 on win32)" generated="2024-04-04T08:56:15.768137" rpa="false" schemaversion="5">
+<suite id="s1" name="Exercicio1" source="C:\Users\nayara.martins_sankh\Documents\treinamento_Robot\Treinamento_Robot\Exercicios\Exercicio1.robot">
+<test id="s1-t1" name="Imprimir Dicionario" line="8">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${PESSOA}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-04-04T08:56:15.788135" elapsed="0.001000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${PESSOA}[nome]</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-04-04T08:56:15.789135" elapsed="0.001000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${PESSOA}[sobrenome]</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-04-04T08:56:15.790135" elapsed="0.000999"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${PESSOA}[idade]</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-04-04T08:56:15.791134" elapsed="0.001008"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${PESSOA}[altura]</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-04-04T08:56:15.792142" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${PESSOA}[estado civil]</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-04-04T08:56:15.793138" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${PESSOA}[profissao]</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-04-04T08:56:15.794139" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-04-04T08:56:15.788135" elapsed="0.006004"/>
+</test>
+<status status="PASS" start="2024-04-04T08:56:15.769138" elapsed="0.026998"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Exercicio1">Exercicio1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

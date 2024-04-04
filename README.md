@@ -27,7 +27,7 @@ Aula 2 - Introdução - 21/02/2024
             keywords
     Libraries
     
-Aula 3 - RobotFramework P1 -21/02/2023
+- RobotFramework P1 -21/02/2023
     Keywords -> libary Seleninum libray
     CLI 
         Comanddos
@@ -38,5 +38,10 @@ Aula 3 - RobotFramework P1 -21/02/2023
             robot -v BROWSER:ie meusTestes.robot
             robot -L trace meusTestes.robot
             robot --help
-    #Tipos de variáveis*
-    #Exercicios*
+    Tipos de variáveis
+        Simples -> ${Nome}  Maria
+        Dicionaro -> &{PESSOA} nome=João sobrenome=Silva idade=15
+        Lista -> @{FRUTAS} abacaxi laranja morango banana
+    Exercicios
+        1.Crie uma variável do Tipo Dicionário que conterá dados de uma pessoa, com no mínimo 6 informações e imprima no console, uma informação por vez.
+        2.Crie uma variavel do tipo Lista de 05 frutas e imprima no console, uma por vez

@@ -67,7 +67,14 @@ Aula 3 - RobotFramework P2 -22/02/2023
 	Video da aula -> https://drive.google.com/file/d/1iH50Oe_rzgHOxbhjM3a_YESpvoK7Ebu2/view
 	    Argumentos e Retornos
 	    Argumentos embutidos 
+            Exercicios
+                1.Crie uma keyword que cria um e-mail formado por nome_sobrenome_idade@robot.com, onde o nome, o sobrenome e a idade são recebidos via passagem de argumentos e, ao final, a keyword deve retornar esse e-mail formatado. Imprima o e-mail retornado no console.
 	    For
-	    If
+            Exercicios
+                1.Crie uma keyword que imprima no console a frase “Estou no número: ${numero}” de 0 a 10.
+                2.Crie uma keyword que imprime no console 5 nomes de países.
+	    If - Contiuar proxima aula
+            Exercicios 
+                1.Crie uma keyword que imprima no console a frase “Estou no número: ${numero}” de 0 a 10, porém somente deve imprimir se for o número 5 ou 8.
 	    Setup e Teardown
 	    Log e Report

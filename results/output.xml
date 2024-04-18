@@ -1,51 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.0 (Python 3.11.8 on win32)" generated="2024-04-18T08:27:20.420775" rpa="false" schemaversion="5">
+<robot generator="Robot 7.0 (Python 3.11.8 on win32)" generated="2024-04-18T11:38:46.725388" rpa="false" schemaversion="5">
 <suite id="s1" name="Treinamento Robot" source="C:\Users\nayara.martins_sankh\Documents\treinamento_Robot\Treinamento_Robot">
-<suite id="s1-s1" name="Exercicios" source="C:\Users\nayara.martins_sankh\Documents\treinamento_Robot\Treinamento_Robot\Exercicios">
-<suite id="s1-s1-s1" name="Exercicio1" source="C:\Users\nayara.martins_sankh\Documents\treinamento_Robot\Treinamento_Robot\Exercicios\Exercicio1.robot">
-<test id="s1-s1-s1-t1" name="Imprimir Dados de Pessoa" line="8">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>${PESSOA}[nome]</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-04-18T08:27:20.454895" elapsed="0.000999"/>
+<suite id="s1-s1" name="Exercicios - aula3" source="C:\Users\nayara.martins_sankh\Documents\treinamento_Robot\Treinamento_Robot\Exercicios - aula3">
+<suite id="s1-s1-s1" name="Exercicio1" source="C:\Users\nayara.martins_sankh\Documents\treinamento_Robot\Treinamento_Robot\Exercicios - aula3\Exercicio1.robot">
+<test id="s1-s1-s1-t1" name="Imprimir 5 paises" line="44">
+<kw name="Nomes de países">
+<kw name="Create List" owner="BuiltIn">
+<msg time="2024-04-18T11:38:46.765692" level="INFO">@{PAISES} = [ Brasil | Paris | Alemanha | Mexico | Australia | Africa ]</msg>
+<var>@{PAISES}</var>
+<arg>Brasil</arg>
+<arg>Paris</arg>
+<arg>Alemanha</arg>
+<arg>Mexico</arg>
+<arg>Australia</arg>
+<arg>Africa</arg>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2024-04-18T11:38:46.764713" elapsed="0.000979"/>
 </kw>
+<for flavor="IN">
+<iter>
 <kw name="Log To Console" owner="BuiltIn">
-<arg>${PESSOA}[sobrenome]</arg>
+<arg>${paises}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-04-18T08:27:20.455894" elapsed="0.001003"/>
+<status status="PASS" start="2024-04-18T11:38:46.766597" elapsed="0.002001"/>
 </kw>
+<var name="${paises}">Brasil</var>
+<status status="PASS" start="2024-04-18T11:38:46.766597" elapsed="0.002001"/>
+</iter>
+<iter>
 <kw name="Log To Console" owner="BuiltIn">
-<arg>${PESSOA}[idade]</arg>
+<arg>${paises}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-04-18T08:27:20.456897" elapsed="0.002004"/>
+<status status="PASS" start="2024-04-18T11:38:46.769652" elapsed="0.001603"/>
 </kw>
+<var name="${paises}">Paris</var>
+<status status="PASS" start="2024-04-18T11:38:46.769652" elapsed="0.001603"/>
+</iter>
+<iter>
 <kw name="Log To Console" owner="BuiltIn">
-<arg>${PESSOA}[altura]</arg>
+<arg>${paises}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-04-18T08:27:20.459893" elapsed="0.001001"/>
+<status status="PASS" start="2024-04-18T11:38:46.771255" elapsed="0.001011"/>
 </kw>
+<var name="${paises}">Alemanha</var>
+<status status="PASS" start="2024-04-18T11:38:46.771255" elapsed="0.001011"/>
+</iter>
+<iter>
 <kw name="Log To Console" owner="BuiltIn">
-<arg>${PESSOA}[estado civil]</arg>
+<arg>${paises}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-04-18T08:27:20.460894" elapsed="0.000999"/>
+<status status="PASS" start="2024-04-18T11:38:46.772266" elapsed="0.001564"/>
 </kw>
+<var name="${paises}">Mexico</var>
+<status status="PASS" start="2024-04-18T11:38:46.772266" elapsed="0.001564"/>
+</iter>
+<iter>
 <kw name="Log To Console" owner="BuiltIn">
-<arg>${PESSOA}[profissao]</arg>
+<arg>${paises}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-04-18T08:27:20.461893" elapsed="0.001001"/>
+<status status="PASS" start="2024-04-18T11:38:46.773830" elapsed="0.001020"/>
 </kw>
+<var name="${paises}">Australia</var>
+<status status="PASS" start="2024-04-18T11:38:46.773830" elapsed="0.001020"/>
+</iter>
+<iter>
 <kw name="Log To Console" owner="BuiltIn">
-<arg>${PESSOA}</arg>
+<arg>${paises}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-04-18T08:27:20.463893" elapsed="0.000000"/>
+<status status="PASS" start="2024-04-18T11:38:46.774850" elapsed="0.000998"/>
 </kw>
-<status status="PASS" start="2024-04-18T08:27:20.453898" elapsed="0.010994"/>
+<var name="${paises}">Africa</var>
+<status status="PASS" start="2024-04-18T11:38:46.774850" elapsed="0.000998"/>
+</iter>
+<var>${paises}</var>
+<value>@{PAISES}</value>
+<status status="PASS" start="2024-04-18T11:38:46.765692" elapsed="0.010156"/>
+</for>
+<status status="PASS" start="2024-04-18T11:38:46.764713" elapsed="0.011135"/>
+</kw>
+<status status="PASS" start="2024-04-18T11:38:46.762597" elapsed="0.013705"/>
 </test>
-<status status="PASS" start="2024-04-18T08:27:20.449893" elapsed="0.017002"/>
+<status status="PASS" start="2024-04-18T11:38:46.759599" elapsed="0.017673"/>
 </suite>
-<status status="PASS" start="2024-04-18T08:27:20.446892" elapsed="0.022001"/>
+<status status="PASS" start="2024-04-18T11:38:46.755588" elapsed="0.024120"/>
 </suite>
-<status status="PASS" start="2024-04-18T08:27:20.426199" elapsed="0.043694"/>
+<status status="PASS" start="2024-04-18T11:38:46.731358" elapsed="0.050349"/>
 </suite>
 <statistics>
 <total>
@@ -55,10 +94,11 @@
 </tag>
 <suite>
 <stat pass="1" fail="0" skip="0" id="s1" name="Treinamento Robot">Treinamento Robot</stat>
-<stat pass="1" fail="0" skip="0" id="s1-s1" name="Exercicios">Treinamento Robot.Exercicios</stat>
-<stat pass="1" fail="0" skip="0" id="s1-s1-s1" name="Exercicio1">Treinamento Robot.Exercicios.Exercicio1</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Exercicios - aula3">Treinamento Robot.Exercicios - aula3</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1" name="Exercicio1">Treinamento Robot.Exercicios - aula3.Exercicio1</stat>
 </suite>
 </statistics>
 <errors>
+<msg time="2024-04-18T11:38:46.715357" level="WARN">Error in file 'C:\Users\nayara.martins_sankh\Documents\treinamento_Robot\Treinamento_Robot\Exercicios - aula3\Exercicio1.robot' on line 22: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
 </errors>
 </robot>

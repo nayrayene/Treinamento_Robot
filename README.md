@@ -1,4 +1,20 @@
 # Treinamento_Robot
+
+Disponibilizamos o ppt do curso: https://docs.google.com/presentation/d/1UPbmPkVnrYNdm6yuyJTdqMUNYQFqLdolLxyaEmofAkQ/edit?usp=drive_link
+
+E os seguintes materias:
+Treinamentos e Guias
+https://docs.robotframework.org/
+https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html
+
+Cursos Extras
+https://www.udemy.com/course/automacao-de-testes-com-robot-framework-basico/?couponCode=ST22FS22724
+https://www.udemy.com/course/automacao-de-testes-com-robot-framework-avancado/?couponCode=ST22FS22724
+
+Blog de apoio
+https://robotizandotestes.blogspot.com/2017/10/season-api-testing-ep-01-testes-de-api.html
+
+
 Treinamento Lecionado pela Sankhya
 Aula 1 -  Instalações Iniciais - 20/02/2024
     Python
@@ -16,16 +32,17 @@ Aula 1 -  Instalações Iniciais - 20/02/2024
             Efetuar um add . , commit -m, push
             Verificar no github
 Aula 2 - Introdução - 21/02/2024
-    O que é
-    Arquitetura
-    Abordagem Keyword-Driven
-    Estrutura
-        Secçoes
-            Settings
-            Variables
-            Teste Case
-            keywords
-    Libraries
+    Video da aula -> https://drive.google.com/file/d/1sobIXGiQ7Wv-m4sxWmLkA2wnsuPX8GV_/view
+        O que é
+        Arquitetura
+        Abordagem Keyword-Driven
+        Estrutura
+            Secçoes
+                Settings
+                Variables
+                Teste Case
+                keywords
+        Libraries
     
 - RobotFramework P1 -21/02/2023
     Keywords -> libary Seleninum libray
@@ -45,3 +62,12 @@ Aula 2 - Introdução - 21/02/2024
     Exercicios
         1.Crie uma variável do Tipo Dicionário que conterá dados de uma pessoa, com no mínimo 6 informações e imprima no console, uma informação por vez.
         2.Crie uma variavel do tipo Lista de 05 frutas e imprima no console, uma por vez
+
+Aula 3 - RobotFramework P2 -22/02/2023
+	Video da aula -> https://drive.google.com/file/d/1iH50Oe_rzgHOxbhjM3a_YESpvoK7Ebu2/view
+	    Argumentos e Retornos
+	    Argumentos embutidos 
+	    For
+	    If
+	    Setup e Teardown
+	    Log e Report

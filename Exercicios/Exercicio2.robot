@@ -5,7 +5,7 @@
 
 *** Test Cases ***
 
-Imprimir Dicionario
+Imprimir Frutas
    
     
     Log To Console     ${FRUTAS}[0]

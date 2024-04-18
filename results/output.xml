@@ -1,46 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.0 (Python 3.11.8 on win32)" generated="2024-04-04T11:08:05.474629" rpa="false" schemaversion="5">
+<robot generator="Robot 7.0 (Python 3.11.8 on win32)" generated="2024-04-18T08:27:20.420775" rpa="false" schemaversion="5">
 <suite id="s1" name="Treinamento Robot" source="C:\Users\nayara.martins_sankh\Documents\treinamento_Robot\Treinamento_Robot">
 <suite id="s1-s1" name="Exercicios" source="C:\Users\nayara.martins_sankh\Documents\treinamento_Robot\Treinamento_Robot\Exercicios">
-<suite id="s1-s1-s1" name="Exercicio2" source="C:\Users\nayara.martins_sankh\Documents\treinamento_Robot\Treinamento_Robot\Exercicios\Exercicio2.robot">
-<test id="s1-s1-s1-t1" name="Imprimir Dicionario" line="8">
+<suite id="s1-s1-s1" name="Exercicio1" source="C:\Users\nayara.martins_sankh\Documents\treinamento_Robot\Treinamento_Robot\Exercicios\Exercicio1.robot">
+<test id="s1-s1-s1-t1" name="Imprimir Dados de Pessoa" line="8">
 <kw name="Log To Console" owner="BuiltIn">
-<arg>${FRUTAS}[0]</arg>
+<arg>${PESSOA}[nome]</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-04-04T11:08:05.502178" elapsed="0.001001"/>
+<status status="PASS" start="2024-04-18T08:27:20.454895" elapsed="0.000999"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
-<arg>${FRUTAS}[1]</arg>
+<arg>${PESSOA}[sobrenome]</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-04-04T11:08:05.504177" elapsed="0.000000"/>
+<status status="PASS" start="2024-04-18T08:27:20.455894" elapsed="0.001003"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
-<arg>${FRUTAS}[2]</arg>
+<arg>${PESSOA}[idade]</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-04-04T11:08:05.505177" elapsed="0.001003"/>
+<status status="PASS" start="2024-04-18T08:27:20.456897" elapsed="0.002004"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
-<arg>${FRUTAS}[3]</arg>
+<arg>${PESSOA}[altura]</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-04-04T11:08:05.506180" elapsed="0.002016"/>
+<status status="PASS" start="2024-04-18T08:27:20.459893" elapsed="0.001001"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
-<arg>${FRUTAS}[4]</arg>
+<arg>${PESSOA}[estado civil]</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-04-04T11:08:05.509438" elapsed="0.000501"/>
+<status status="PASS" start="2024-04-18T08:27:20.460894" elapsed="0.000999"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
-<arg>${FRUTAS}</arg>
+<arg>${PESSOA}[profissao]</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-04-04T11:08:05.510441" elapsed="0.000501"/>
+<status status="PASS" start="2024-04-18T08:27:20.461893" elapsed="0.001001"/>
 </kw>
-<status status="PASS" start="2024-04-04T11:08:05.501180" elapsed="0.010260"/>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${PESSOA}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-04-18T08:27:20.463893" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-04-18T08:27:20.453898" elapsed="0.010994"/>
 </test>
-<status status="PASS" start="2024-04-04T11:08:05.498177" elapsed="0.015263"/>
+<status status="PASS" start="2024-04-18T08:27:20.449893" elapsed="0.017002"/>
 </suite>
-<status status="PASS" start="2024-04-04T11:08:05.495180" elapsed="0.019757"/>
+<status status="PASS" start="2024-04-18T08:27:20.446892" elapsed="0.022001"/>
 </suite>
-<status status="PASS" start="2024-04-04T11:08:05.478792" elapsed="0.038147"/>
+<status status="PASS" start="2024-04-18T08:27:20.426199" elapsed="0.043694"/>
 </suite>
 <statistics>
 <total>
@@ -51,7 +56,7 @@
 <suite>
 <stat pass="1" fail="0" skip="0" id="s1" name="Treinamento Robot">Treinamento Robot</stat>
 <stat pass="1" fail="0" skip="0" id="s1-s1" name="Exercicios">Treinamento Robot.Exercicios</stat>
-<stat pass="1" fail="0" skip="0" id="s1-s1-s1" name="Exercicio2">Treinamento Robot.Exercicios.Exercicio2</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1" name="Exercicio1">Treinamento Robot.Exercicios.Exercicio1</stat>
 </suite>
 </statistics>
 <errors>

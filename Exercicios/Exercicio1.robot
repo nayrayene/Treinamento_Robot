@@ -5,7 +5,7 @@
 
 *** Test Cases ***
 
-Imprimir Dicionario
+Imprimir Dados de Pessoa
  
     Log To Console     ${PESSOA}[nome]
     Log To Console     ${PESSOA}[sobrenome] 

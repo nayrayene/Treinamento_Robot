@@ -73,7 +73,9 @@ Aula 3 - RobotFramework P2 -22/02/2023
             Exercicios
                 1.Crie uma keyword que imprima no console a frase “Estou no número: ${numero}” de 0 a 10.
                 2.Crie uma keyword que imprime no console 5 nomes de países.
-	    If - Contiuar proxima aula
+Aula 4 - Continuação RobotFramework P2 - 26-02-2024
+    Video da aula -> https://drive.google.com/file/d/1sPSO6eJgDvzUeFFopqJZ_RD6tOr2Db92/view
+        If
             Exercicios 
                 1.Crie uma keyword que imprima no console a frase “Estou no número: ${numero}” de 0 a 10, porém somente deve imprimir se for o número 5 ou 8.
 	    Setup e Teardown

@@ -31,6 +31,21 @@ Nomes de países
     FOR    ${paises}    IN    @{PAISES}
         Log To Console    ${paises}
     END
+Mostranddo contagem 5 ou 8
+   FOR    ${numero}    IN RANGE    0   5
+        
+    
+       IF   '${numero}'=='6-1'
+				Log To Console    "Estou no numero:${numero}!"
+	    ELSE IF    '${numero}'=='9-1'
+				Log To Console    "Estou no numero:${numero}!"
+	    ELSE
+            Log To Console    "Não estou no numero 5 ou 8 !"
+	    END
+ 
+    END
+    
+
 
 *** Test Cases ***
 
@@ -43,3 +58,8 @@ Imprimir Contando de 1 a 10
 
 Imprimir 5 paises
     Nomes de países
+
+Imprimir 5 ou 8
+    Mostranddo contagem 5 ou 8
+
+

@@ -32,12 +32,12 @@ Nomes de países
         Log To Console    ${paises}
     END
 Mostranddo contagem 5 ou 8
-   FOR    ${numero}    IN RANGE    0   5
+   FOR    ${numero}    IN RANGE    0   11
         
     
-       IF   '${numero}'=='6-1'
+       IF   '${numero}'=='5'
 				Log To Console    "Estou no numero:${numero}!"
-	    ELSE IF    '${numero}'=='9-1'
+	    ELSE IF    '${numero}'=='8'
 				Log To Console    "Estou no numero:${numero}!"
 	    ELSE
             Log To Console    "Não estou no numero 5 ou 8 !"

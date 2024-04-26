@@ -80,3 +80,11 @@ Aula 4 - Continuação RobotFramework P2 - 26-02-2024
                 1.Crie uma keyword que imprima no console a frase “Estou no número: ${numero}” de 0 a 10, porém somente deve imprimir se for o número 5 ou 8.
 	    Setup e Teardown
 	    Log e Report
+Aula 5 - Como realizar uma automação? - 27-02-2024
+	Video da aula -> https://drive.google.com/file/d/1Bl7F2y5BJoe7HrInBosYb14NvmWdqyZZ/view
+        Refinamento
+			Mapear Casos ->https://drive.google.com/file/d/1WlJp2bkdi3hXxG0UZ06a2yECQiHdtZRF/view
+        Desenvolvimento
+			Ambiente -> https://docs.google.com/document/d/1rFc55LIuMNQK-cnS64DGM_ht0LlcViyOtPEwSCm-No4/edit
+        Entrega
+        

@@ -90,5 +90,7 @@ Aula 5 - Como realizar uma automação? - 27-02-2024
 Aula 6 - Teste - 28-02-2024
 	Video da aula -> https://drive.google.com/file/d/1bk4RqCaeGABmK_dH-KEnuNIm-tXyTCAH/view
 		Configurando Projeto
+			API -> https://drive.google.com/file/d/1tRk1y2QAYitd2edSOkAW7ivrd08_lPdh/view
+			WEB -> https://drive.google.com/file/d/1Wywo2QozHX501o4R_JQTleuz4r7h38Zp/view
 		API
 		WEB       

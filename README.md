@@ -87,4 +87,8 @@ Aula 5 - Como realizar uma automação? - 27-02-2024
         Desenvolvimento
 			Ambiente -> https://docs.google.com/document/d/1rFc55LIuMNQK-cnS64DGM_ht0LlcViyOtPEwSCm-No4/edit
         Entrega
-        
+Aula 6 - Teste - 28-02-2024
+	Video da aula -> https://drive.google.com/file/d/1bk4RqCaeGABmK_dH-KEnuNIm-tXyTCAH/view
+		Configurando Projeto
+		API
+		WEB       

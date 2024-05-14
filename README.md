@@ -91,6 +91,59 @@ Aula 6 - Teste - 28-02-2024
 	Video da aula -> https://drive.google.com/file/d/1bk4RqCaeGABmK_dH-KEnuNIm-tXyTCAH/view
 		Configurando Projeto
 			API -> https://drive.google.com/file/d/1tRk1y2QAYitd2edSOkAW7ivrd08_lPdh/view
+                Projeto-SKA
+                    C:\Projeto-Automacao-SKA\
+				Refinamento
+					Automação - API - Produção - Capacidades - Cadastro de Capacidades
+						Collection ->https://drive.google.com/file/d/1WlJp2bkdi3hXxG0UZ06a2yECQiHdtZRF/view
+						Fluxo manual ->https://drive.google.com/file/d/1vIm4Unwac_mJioJJQwgR9wo-pJnaBdFU/view
 			WEB -> https://drive.google.com/file/d/1Wywo2QozHX501o4R_JQTleuz4r7h38Zp/view
+                 Projeto-SKA
+                      C:\Projeto-Automacao-SKA\
+        Extra -> Localizado no README do projeto de automação -> C:\Projeto-Automacao-SKA
+            3. Configurando o projeto
+                * Criando ambiente virtual
+                    * __Venv__ comando:
+                        ```
+                        python -m venv ./venv
+                        ```
+
+                    __obs__: após instalar você pode ativar a venv com comando
+
+                    cmd
+                    ~~~cmd
+                    .\venv\Scripts\activate.bat
+                    ~~~
+
+                    powershel
+                    ~~~powershell
+                    .\venv\Scripts\Activate.ps1 
+                    ~~~
+
+                * Instalando Dependencias do projeto
+                    * __Obs__: comando deve ser rodado com a venv aberto
+                    
+                    * __Requirements__ comando: 
+                        ```
+                        pip install -r .\requirements.txt
+                        ```
+                    __Poetry__ comando: 
+                        ``` 
+                        pip install poetry 
+                        ```
+
+                * Configurando Pluging __RobotCode__
+                No vs code navegar Extensions >> Robot Code >> Manage >> Extension Settings >> aba Workspace >> Robotcode > Robot: Variables >> Edit in settings.json
+                Com o arquivo settings.json aberto informar o diretório que está o projeto
+                    
+                    Ex: 
+                    ```
+                    {
+                        "robotcode.robot.variables": {
+                            "ROOT":"C:\\AUTOMACAO"
+                        }
+                    }
+                    ```
+
 		API
-		WEB       
+		WEB 
